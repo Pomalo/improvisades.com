@@ -77,7 +77,7 @@ body {
 	background: url("images/menu_bg.png");
 	height: 40px;
 	list-style-type: none;
-	padding: 10px 10px 5px;
+	padding: 10px 5px 5px;
 	border-bottom: 0px none;
 	margin: 20px 0px;
 }
@@ -85,13 +85,18 @@ body {
 #navigation li {
 	float: left;
 	height: 30px;
-	padding:5px 20px 0px;
+	padding:5px 10px 0px;
 	margin-bottom:20px;
 	background:no-repeat url("images/separator.png") top right;
 }
 
+#navigation .last {
+	background:none;
+}
+
 #navigation li:first-letter {
 	color:#800000;
+	/*text-transform: uppercase;*/
 }
 
 #navigation li a {
@@ -269,8 +274,12 @@ body {
 
 #navigation_foot li {
 	float:left;
-	padding:0 10px;
+	padding:0 33px;
 	background:no-repeat url("images/separator.png") top right;
+}
+
+#navigation_foot .last {
+	background:none;
 }
 
 #navigation_foot li:first-letter {
