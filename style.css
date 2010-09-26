@@ -1,0 +1,329 @@
+/*
+Theme Name: SidebarsSuck2
+Theme URI: http://www.ich-bin-ein-geek-holt-mich-hier-raus.de/?p=774
+Description: Schlicht, einfach, schwarz auf wei&szlig;. F&uuml;r Blogger, die lieber &uuml;ber die wichtigen Dinge des Lebens bloggen, statt &uuml;ber das t&auml;gliche Frühstück. F&uuml;r Blogger mit Leidenschaft. F&uuml;r Blogger mit Message. F&uuml;r Blogger mit Herz. Vielleicht auch f&uuml;r dich?
+Version: 1.2
+Author: Lifecheater
+Author URI: http://lifecheater.ich-geek.de/
+Tags: one-column, black, white, fixed-width
+*/
+
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+.aligncenter, div.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.alignleft {
+	float: left;
+}
+
+.alignright {
+	float: right;
+}
+
+body {
+	font-family: Georgia;
+	font-style: italic;
+	text-transform: lowercase;
+	font-size: 14px;
+	background: #FFF url("images/bg.png");
+	padding:0px;
+	margin:0px;
+}
+
+#link_org {
+	position:absolute;
+	top:0px;
+	right:0px;
+}
+
+#wrap {
+	width: 900px;
+	margin: 0px auto;
+}
+
+#header {
+	background: transparent;
+	width: 100%;
+	padding: 10px 20px;
+}
+
+#s {
+	float: right;
+	width: 150px;
+	padding: 2px;
+	background: transparent;
+	border: 0px none;
+	border-bottom: 1px solid #444;
+	color: #444;
+	margin-top: 5px;
+	font-size: 15px;
+	font-family: Georgia;
+	font-style: italic;
+}
+
+#s:focus {
+	border-bottom: 1px solid #777;
+	color: #777;
+}
+
+#navigation {
+	background: url("images/menu_bg.png");
+	height: 40px;
+	list-style-type: none;
+	padding: 10px 10px 5px;
+	border-bottom: 0px none;
+	margin: 20px 0px;
+}
+
+#navigation li {
+	float: left;
+	height: 30px;
+	padding:5px 20px 0px;
+	margin-bottom:20px;
+	background:no-repeat url("images/separator.png") top right;
+}
+
+#navigation li:first-letter {
+	color:#800000;
+}
+
+#navigation li a {
+	text-decoration: none;
+	font-size: 1.5em;
+	color: #3F3F3F;
+}
+
+#navigation .current_page_item a {
+	color: #800000;
+}
+
+#navigation .current_page_item a:first-letter {
+	color: #300000;
+}
+
+#navigation li a:hover {
+	color: #800000;
+}
+
+#navigation .current_page_item a:hover {
+	color: #300000;
+}
+
+#content {
+	width: 780px;
+	padding:30px 60px;
+	margin:30px 0px;
+	height:398px;
+	background: url("images/content.png") no-repeat center center;
+	overflow:auto;
+}
+
+#content .post {
+	margin-bottom: 30px;
+}
+
+#content .post .date {
+	float: left;
+	height:39px;
+	width:95px;
+	margin: -5px 10px 0px -60px;
+	padding: 7px 5px 3px 30px;
+	color: #212121;
+	background: url("images/date.png");
+}
+
+#content .post .date p span, #content #commentlist li .authorinfo small{
+	font-size: 12px;
+}
+
+#content .post .date p strong {
+	font-size: 30px;
+	float: left;
+	margin-top: -2px;
+	margin-right: 5px;
+}
+
+#content h2 {
+	font-size: 30px;
+	font-weight: bold;
+	color: #212121;
+	margin-bottom: 10px;
+}
+
+#content .post h2 a {
+	color: #212121;
+	text-decoration: none;
+	border-bottom: none;
+}
+
+#content .post h2 small a{
+	font-size: 14px;
+	color: #990000;
+	margin-left: 5px;
+	text-decoration: none;
+}
+
+#content .post h2 small a:hover {
+	border-bottom: 1px solid #cc0000;
+	color: #cc0000;
+}
+
+#content .post h2 a:hover{
+	color: #660000;
+}
+
+#content .post .tags {
+	font-size: 11px;
+	margin-bottom: 10px;	
+}
+
+#content .post .contentinner p {
+	margin: 10px 0px;
+}
+
+#content .post .contentinner .storycontent {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 14px;
+	font-style: normal;
+	text-transform: none;
+}
+
+#content #commentlist {
+	margin-left: 20px;
+	margin-top: 10px;
+	list-style-type: none;
+}
+
+#content #commentlist li {
+	margin: 10px 0px;
+}
+
+#content #commentlist li .authorinfo {
+	float: left;
+	width: 250px;
+	margin: 0px 10px 0px 5px;
+}
+
+#content #commentlist li .authorinfo h3 a, #content #commentlist li .authorinfo h3 {
+	color: #212121;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+#content #commentlist li .authorinfo .avatar {
+	float: left;
+	margin-right: 10px;
+}
+
+#content #commentlist li .comment-content {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 14px;
+	display: block;
+	width: 425px;
+	margin-left: 270px;
+	padding-left: 5px;
+	border-left: 3px solid #008AAB;
+	font-style: normal;
+	text-transform: none;
+}
+
+#content #commentform #comment {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 14px;
+	font-style: normal;
+	text-transform: none;
+	padding: 3px;
+}
+
+#content .trackbackrss {
+	margin-top: 5px;
+}
+
+/* Elements */
+
+#content a, #footer a {
+	text-decoration: none;
+	color: #660000;
+}
+
+#content a:hover, #footer a:hover {
+	color: #330000;
+	border-bottom: 1px solid #330000;
+}
+
+#navigation_foot {
+	background: url("images/nav_foot.png");
+	height: 21px;
+	width:350px;
+	list-style-type: none;
+	padding: 7px 10px 3px;
+	margin: 20px auto;
+}
+
+#navigation_foot li {
+	float:left;
+	padding:0 10px;
+	background:no-repeat url("images/separator.png") top right;
+}
+
+#navigation_foot li:first-letter {
+	color:#800000;
+}
+
+#navigation_foot li a {
+	text-decoration: none;
+	font-size: 17px;
+	color: #3F3F3F;
+}
+
+#navigation_foot .current_page_item a {
+	color: #800000;
+}
+
+#navigation_foot .current_page_item a:first-letter {
+	color: #300000;
+}
+
+#navigation_foot li a:hover {
+	color: #800000;
+}
+
+#navigation_foot .current_page_item a:hover {
+	color: #300000;
+}
+
+
+
+#footer {
+	margin: 0px auto 20px;
+	color: #333333;
+	padding: 5px 10px 10px;
+	width: 780px;
+	text-align: middle;
+	font-size: 13px;
+	font-family: Georgia;
+	font-style: italic;
+	text-transform: lowercase;
+}
+
+a img {
+	border: 0px none;
+}
+
+blockquote {
+	border-left: 3px solid #008AAB;
+	margin-left: 20px;
+	padding-left: 5px;
+	color: #5F5F5F;
+}
+
+ul, ol {
+	margin-left: 40px;
+}
