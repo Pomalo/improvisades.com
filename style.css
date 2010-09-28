@@ -1,11 +1,11 @@
 /*
-Theme Name: SidebarsSuck2
-Theme URI: http://www.ich-bin-ein-geek-holt-mich-hier-raus.de/?p=774
-Description: Schlicht, einfach, schwarz auf wei&szlig;. F&uuml;r Blogger, die lieber &uuml;ber die wichtigen Dinge des Lebens bloggen, statt &uuml;ber das t&auml;gliche Frühstück. F&uuml;r Blogger mit Leidenschaft. F&uuml;r Blogger mit Message. F&uuml;r Blogger mit Herz. Vielleicht auch f&uuml;r dich?
-Version: 1.2
-Author: Lifecheater
-Author URI: http://lifecheater.ich-geek.de/
-Tags: one-column, black, white, fixed-width
+Theme Name: Improvisades
+Theme URI: http://www.improvisades.com
+Description: Thème pour le site improvisades.com
+Version: 1.0
+Author: Ouardane
+Author URI: http://pomablog.free.Fr
+Tags: one-column, almost-static, black, white, red, fixed-width
 */
 
 * {
@@ -85,7 +85,7 @@ body {
 #navigation li {
 	float: left;
 	height: 30px;
-	padding:5px 7px 0px;
+	padding:5px 9px 0px;
 	margin-bottom:20px;
 	background:no-repeat url("images/separator.png") top right;
 }
