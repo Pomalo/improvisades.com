@@ -33,14 +33,13 @@
 </div>
 
 <ul id="navigation">
-	<li class="<?php if (!is_page()) echo "current_page_item" ?>"><a href="<?php bloginfo('url'); ?>">Actualités</a></li>
 	<?php wp_list_pages('exclude=16,18,20&title_li=');
 	
 	if (is_active_widget("sidebarssuck_widget_search")) {
 		sidebarssuck_widget_search();
 	}
 	?>
-	<li class="last"><a href="http://www.improvisades.org"><img src="http://www.improvisades.com/wp-content/themes/improvisades/images/org.png"/></a></li>
+	<li class="last"><a href="mailto:improvisades_at_improvisades.org"><img src="http://www.improvisades.com/wp-content/themes/improvisades/images/mail.png"/></a></li>
 </ul>
 
 <div id="content">

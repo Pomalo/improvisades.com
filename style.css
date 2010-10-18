@@ -28,11 +28,11 @@ Tags: one-column, almost-static, black, white, red, fixed-width
 }
 
 body {
-	font-family: Georgia;
+	font-family: Trebuchet, Georgia, Verdana;
 	font-style: italic;
 	text-transform: lowercase;
 	font-size: 14px;
-	background: #FFF url("images/bg.png");
+	background: #ebebeb url("images/bg.png") no-repeat;
 	padding:0px;
 	margin:0px;
 }
@@ -153,6 +153,7 @@ body {
 	float: left;
 	margin-top: -2px;
 	margin-right: 5px;
+	color: #212121;
 }
 
 #content h2 {
@@ -251,6 +252,26 @@ body {
 	margin-top: 5px;
 }
 
+#content strong {
+ color:#800000; 
+}
+
+#page_content {
+ width:370px;
+ padding-left:10px;
+ margin-left:10px;
+ float:left;
+ text-align:justify;
+ border-left:2px solid #AAA;
+}
+
+#news_content {
+ width:370px; 
+ float:left;  
+ text-align:justify;
+}
+
+
 /* Elements */
 
 #content a, #footer a {
@@ -327,10 +348,10 @@ a img {
 }
 
 blockquote {
-	border-left: 3px solid #008AAB;
+	border-left: 3px solid #800000;
 	margin-left: 20px;
 	padding-left: 5px;
-	color: #5F5F5F;
+	color: #333;
 }
 
 ul, ol {

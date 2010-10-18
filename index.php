@@ -10,8 +10,6 @@ get_header();
 		<p>
 		<strong><?php the_time("d");?></strong>
 		<span><?php the_time("m");?>/<?php the_time("y");?></span>
-		<br />
-		<span><?php the_time("H:i") ?></span>
 		</p>
 	</div>
 	<?php } ?>
