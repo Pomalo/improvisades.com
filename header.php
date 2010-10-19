@@ -26,7 +26,7 @@
 </head>
 
 <body>
-<div id="link_org"><a href="http://www.improvisades.org"><img src="http://www.improvisades.com/wp-content/themes/improvisades/images/link_org.png"/></a></div>
+<div id="link_org"><a href="http://www.improvisades.eu"><img src="http://www.improvisades.com/wp-content/themes/improvisades/images/link_org.png"/></a></div>
 <div id="wrap">
 <div id="header">
 	<a href="<?php bloginfo('url'); ?>/"><img src="http://www.improvisades.com/wp-content/themes/improvisades/images/logo.png"/></a>
